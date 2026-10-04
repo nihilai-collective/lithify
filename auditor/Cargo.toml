@@ -1,0 +1,17 @@
+[package]
+name = "auditor"
+version = "0.1.0"
+description = "Example lithify agent: audits a source tree with a budgeted, compacting context."
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[dependencies]
+lithify = { path = "../lithify" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+reqwest = { version = "0.13", default-features = false, features = ["json", "rustls", "blocking"] }
+walkdir = "2"
+rand = "0.9"

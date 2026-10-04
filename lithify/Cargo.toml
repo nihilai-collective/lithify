@@ -1,0 +1,21 @@
+[package]
+name = "lithify"
+version = "0.1.0"
+description = "A journaled, forkable, compactable context store for long-running agents: sediment in, rock out."
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+keywords = ["agents", "event-sourcing", "journal", "redb", "llm"]
+categories = ["database-implementations", "data-structures"]
+
+[dependencies]
+redb = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+blake3 = { workspace = true }
+thiserror = { workspace = true }
+
+[dev-dependencies]
+tempfile = "3"
+proptest = "1"

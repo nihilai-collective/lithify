@@ -1,0 +1,6 @@
+/target
+*.redb
+*.sqlite
+*.sqlite-*
+*.trace
+__pycache__/

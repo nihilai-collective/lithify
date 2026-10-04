@@ -1,0 +1,16 @@
+[workspace]
+resolver = "2"
+members = ["lithify", "auditor"]
+
+[workspace.package]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/cycle-five/lithify"
+authors = ["Lothrop <lothrop.cracked@gmail.com>"]
+
+[workspace.dependencies]
+redb = "4"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+blake3 = "1"
+thiserror = "2"
