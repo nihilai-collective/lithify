@@ -6,7 +6,7 @@ members = ["lithify", "auditor"]
 edition = "2021"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/cycle-five/lithify"
-authors = ["Lothrop <lothrop.cracked@gmail.com>"]
+authors = ["Cycle Five <cycle.five@proton.me>"]
 
 [workspace.dependencies]
 redb = "4"
