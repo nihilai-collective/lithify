@@ -5,7 +5,7 @@ members = ["lithify", "auditor"]
 [workspace.package]
 edition = "2021"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/cycle-five/lithify"
+repository = "https://github.com/nihilai-collective/lithify"
 authors = ["Cycle Five <cycle.five@proton.me>"]
 
 [workspace.dependencies]
